@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <meta name="description" content="description site here" />
+      <meta name="keywords" content="keywords65,description here for seo" />
+      <meta name="author" content="AHMED MENISY" />
+      <title>Login</title>
+      <!-- fontawesome css cdn file link -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      />
+      <!-- bootstrap css cdn file link -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.min.css"
+      />
+      <!-- custome css file link -->
+      <link rel="stylesheet" href="./css/style.css" />
+   </head>
+   <body class="bg-main">
+      <main>
+         <div class="main-area container col-md-8 pt-5">
+            <div class="content bg-main text-center vstack p-5">
+               <h1 class="color-second pb-4 fw-normal">Smart Login System</h1>
+               <input
+                  id="emailInputSignIn"
+                  class="form-control"
+                  type="email"
+                  placeholder="Your Email"
+               />
+               <div class="input-group my-3">
+                  <input
+                     id="passwordInputSignIn"
+                     class="form-control border-end-0"
+                     type="password"
+                     placeholder="Your Password"
+                  />
+                  <div class="input-group-text bg-transparent border-start-0">
+                     <i
+                        id="showPassword"
+                        class="fa-solid fa-eye text-secondary"
+                     ></i>
+                  </div>
+               </div>
+               <div id="incorrect"></div>
+               <button id="signInBtn" type="button" class="btn-custom btn mt-4">
+                  Login
+               </button>
+               <p class="text-white mt-3 fw-light">
+                  Don’t have an account?
+                  <a
+                     class="text-decoration-none text-reset new-page"
+                     href="signup.html"
+                     >Sign Up</a
+                  >
+               </p>
+            </div>
+         </div>
+      </main>
+      <!-- bootstrap js cdn file script -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/js/bootstrap.bundle.min.js"></script>
+      <!-- custom js file script -->
+      <script src="./js/login.js"></script>
+   </body>
+</html>

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+/* ---------- global start ---------- */
+* {
+   font-family: "Roboto", sans-serif;
+}
+:root {
+   --main-color: #24353f;
+   --second-color: #17a2b8;
+}
+.bg-main {
+   background-color: var(--main-color);
+}
+.color-second {
+   color: #17a2b8;
+}
+/* ---------- global end ---------- */
+/* ---------- login area start ---------- */
+.main-area .content {
+   box-shadow: 5px 5px 50px 0 #000b;
+}
+.main-area .content input {
+   background-color: transparent;
+   box-shadow: unset;
+   color: #fff;
+}
+.main-area .content input::placeholder {
+   color: #ccc;
+   font-weight: 300;
+}
+.main-area .content .btn-custom {
+   --bs-btn-color: var(--second-color);
+   --bs-btn-border-color: var(--second-color);
+   --bs-btn-hover-bg: var(--second-color);
+   --bs-btn-hover-color: #fff;
+   --bs-btn-hover-border-color: var(--second-color);
+}
+.main-area .content .new-page:hover {
+   text-decoration: underline !important;
+}
+.main-area i {
+   cursor: pointer;
+}
+.home {
+   min-height: calc(100vh - 70px);
+}
+/* ---------- login area end ---------- */
+@media screen and (max-width:575.98px) {
+   :root {
+      font-size: 14px;
+   }
+}
